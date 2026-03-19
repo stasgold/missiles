@@ -27,7 +27,7 @@ BASE_URL = "https://www.tzevaadom.co.il"
 API_BASE = "https://api.tzevaadom.co.il"
 ALL_JSON_URL = f"{BASE_URL}/static/historical/all.json"
 LISTS_VERSIONS_URL = f"{API_BASE}/lists-versions"
-DEFAULT_DB = "alerts.db"
+DEFAULT_DB = "/data/alerts.db"
 
 # Threat type ID → English label (discovered by rendering the detail pages)
 THREAT_TYPES: dict[int, str] = {
